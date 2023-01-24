@@ -33,6 +33,18 @@
   }
 }
 
+@media screen and (min-width: 1260px) {
+  :root {
+      --big-font-size: 3.5rem;
+      --h1-font-size: 2.5rem;
+      --h2-font-size: 2rem;
+      --h3-font-size: 1.8rem;
+      --normal-font-size: 1.5rem;
+      --small-font-size: 1.2rem;
+      --smaller-font-size: 1rem;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -294,7 +306,7 @@ ul {
 }
 
 .qualification-calendar {
-  font-size: .75rem;
+  font-size: var(--smaller-font-size);
   color: hsl(250, 8%, 45%);
 }
 
@@ -453,7 +465,7 @@ ul {
   }
 
   .section {
-    padding: 10rem 0 6rem;
+    padding: 10rem 0 5rem;
     /* margin-bottom: 2rem; */
   }
 
