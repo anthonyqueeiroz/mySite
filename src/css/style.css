@@ -177,7 +177,7 @@ ul {
 
 .home-content {
   grid-template-columns: .8fr 3fr;
-  padding-top: 3rem;
+  padding-top: 1rem;
   align-items: center;
 }
 
@@ -355,6 +355,10 @@ ul {
 /* --------------- FOR MEDIUM DEVICES -------------------- */
 
 @media screen and (min-width: 568px) {
+  .section {
+    padding: 6rem 0 3rem;
+  }
+
   .home-content {
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -387,7 +391,8 @@ ul {
   }
 
   .section {
-    padding: 6rem 0 2rem;
+    padding: 8rem 0 4rem;
+    /* margin-bottom: 2rem; */
   }
 
   .section-subtitle {
