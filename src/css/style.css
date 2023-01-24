@@ -178,6 +178,8 @@ ul {
 .home-content {
   grid-template-columns: .8fr 3fr;
   padding-top: 1rem;
+  row-gap: 2rem;
+  column-gap: 3rem;
   align-items: center;
 }
 
@@ -210,7 +212,7 @@ ul {
 
 .home-about-me-description {
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   text-align: justify;
 }
 
